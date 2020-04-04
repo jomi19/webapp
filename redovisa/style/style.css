@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Sen&display=swap');
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1,
+a {
+    font-family: 'Bree Serif', serif;
+}
+
+p {
+    font-family: 'Sen', sans-serif; 
+}
+
+.container img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-flow: row, nowrap;
+    justify-content: space-around;
+}
+
+.bottom-nav .selected {
+    color: grey;
+}
+
+.bottom-nav a {
+    display: flex;
+    flex-flow: column;
+}
+
+.bottom-nav i {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-text {
+    margin-top: 0.3rem;
+}

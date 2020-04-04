@@ -1,0 +1,29 @@
+.main {
+    width: 40rem;
+    height: 40rem;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+
+
+.red {
+    background-color: red;
+    width: 8rem;
+    height: 8rem;
+}
+
+.blue {
+    background-color: blue;
+    width: 4rem;
+    height: 15rem;
+}
+
+.green {
+    background-color: green;
+    width: 7rem;
+    height: 14rem;
+}
