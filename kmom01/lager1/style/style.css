@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Sen&display=swap');
 
 body {
-    background-color: #ededed;
+    background-color: #e0f3fa;
     color: #191d22;
     font-size: 100%;
 }
@@ -12,8 +12,31 @@ p {
     margin-bottom: 1.4rem;
 }
 
+.header {
+    border-bottom: 1px solid #abd9eb;
+    text-align: center;
+}
+
+.top-crumbs {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.top-crumbs li {
+    display: inline;
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+.top-crumbs li + li::before {
+    padding: 5px;
+    content: "/\00a0";
+}
+
 .container {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -37,7 +60,7 @@ p {
 }
 
 .bottom-nav {
-    border-top: 1px solid #6b7074;
+    border-top: 1px solid #abd9eb;
     padding-top: 1rem;
     padding-bottom: 1rem;
     position: fixed;
@@ -65,4 +88,23 @@ p {
 
 .icon-text {
     margin-top: 0.3rem;
+}
+
+.lager-table {
+    margin: 0 auto;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    width: 95%;
+}
+
+.lager-table tr:nth-child(even) {
+    background-color: #7abcd6;
+}
+
+.lager-table .td .amount {
+    text-align: center;
+}
+
+.amount {
+    text-align: right;
 }
