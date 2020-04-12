@@ -20,7 +20,7 @@ let orderDetails = {
         button.textContent = "Packat";
         window.header.innerHTML = "";
         table.className = "lager-table";
-        table.innerHTML = "<tr><td>Order</td><td>Antal</td><td>Plats</td></tr>";
+        table.innerHTML = "<tr><td></td><td>Order</td><td>Antal</td><td>Plats</td></tr>";
         utils.removeNodes("main");
         myFunction.setTitle(order.id, [{name: "Home", nav: home.showHome},
             {name: "order", nav: orderList.show}]);

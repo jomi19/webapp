@@ -1,0 +1,23 @@
+.lager-table {
+    margin: 0 auto;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    width: 95%;
+}
+
+.lager-table tr:nth-child(even) {
+    background-color: darken($lightBlue, 20%);
+}
+
+.amount {
+    text-align: right;
+}
+
+.no-stock {
+    background-color: $lightRed;
+}
+
+.packlist-check {
+    transform: scale(1.7);
+    width: 100%;
+}
