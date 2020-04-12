@@ -15,6 +15,14 @@ var report = (function () {
                 window.mainContainer.innerHTML = md.render(result);
             });
 
+        fetch("kmom/02.md")
+            .then(function(response) {
+                return response.text();
+            })
+            .then(function(result) {
+                window.mainContainer.innerHTML += md.render(result);
+            });
+
         menu.showMenu("Redovisning");
     };
 

@@ -33,7 +33,7 @@ var home = (function() {
 
         window.rootElement.appendChild(window.mainContainer);
 
-        menu.showMenu("Me");
+        menu.showMenu("Home");
     };
 
     return {

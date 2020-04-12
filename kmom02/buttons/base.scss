@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+@import 'style/normalize.min.scss';
+@import 'style/variables';
+@import 'style/button';
+
+body {
+    font-family: $font-body;
+}
+
+.container {
+    padding: 1rem;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+

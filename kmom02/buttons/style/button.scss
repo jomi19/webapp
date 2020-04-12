@@ -1,0 +1,48 @@
+.button {
+    color: #333;
+    background-color: #fff;
+    background-image: linear-gradient(#fff, #eee);
+    border: 1px solid #ccc;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: $font-body;
+    font-size: 1.4rem;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    line-height: 1.4;
+}
+
+.button:hover {
+    background-color: #ddd;
+    background-image: none;
+}
+
+.button:active {
+    background-color: #dcdcdc;
+    background-image: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.full-width-button {
+    width: 100%;
+}
+
+.blue-button {
+    color: #fff;
+    background-color: $blue;
+    background-image: linear-gradient($blue, darken($blue, 10%));
+    border-color: $dBlue;
+}
+
+.blue-button:hover {
+    background-color: $dBlue;
+    background-image: none;
+}
+
+.blue-button:active {
+    background-color: $dBlue;
+    background-image: none;
+    box-shadow: 0 2px 4px darken($dBlue, 20%);
+}

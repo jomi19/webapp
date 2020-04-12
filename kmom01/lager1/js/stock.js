@@ -41,7 +41,7 @@ var stock = (function() {
             }).catch(function(error) {
                 console.log("Fetch operation failed due to the following error:", error.message);
             });
-        menu.showMenu("Github");
+        menu.showMenu("Stock");
     };
 
     return {

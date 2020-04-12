@@ -40,6 +40,7 @@ p {
     border-top: 1px solid #6b7074;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: #ededed;
     position: fixed;
     bottom: 0;
     overflow: hidden;
